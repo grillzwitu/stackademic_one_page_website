@@ -1,44 +1,54 @@
 body {
-    background-image: url('./images/aphrodite_logo.jpg');
-    background-color: rgb(159, 214, 236);
+    background-color: rgb(241, 112, 187);
+}
+
+.logo {
+    height: 700px;
+    width: 100%;
+    background-image: url(./images/aphrodite_logo.jpg);
     background-position: center;
-    height: fit-content;
+}
+
+.nav-bar {
+    display: flex;
+    background-color: rgb(12, 148, 148);
+    color: white;
+    height: 50px;
+    width: 100%;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-bar ul li {
+    font-weight: bolder;
+    margin: 0 15px 0 15px;
+}
+
+.vl {
+    border-right: thin solid white;
 }
 
 .company-name {
-    margin-top: 20px;
-    display: inline-block;
     font-family: 'Courier New', Courier, monospace;
     font-size: 30px;
     font-weight: bolder;
     color: black;
-    position: relative;
-    left: 25%;
-    top: -20px;
+    text-align: center;
 }
 
 h2, h3 {
     font-family: cursive;
 }
 
-.logo {
-    display: inline-block;
-    margin-left: 30px;
-}
-
-.logo img {
-    box-sizing: border-box;
-    border-radius: 50%;
-    width: 100px;
-}
-
 .about-us {
     font-family: cursive;
     text-align: center;
     font-size: large;
-    color: white;
-    position: relative;
-    top: -15px;
+    color: rgb(149, 7, 149);;
+    margin-top: 10px;
 }
 
 .section-heading {
@@ -54,6 +64,7 @@ h2, h3 {
     text-decoration: none;
     font-weight: bolder;
     font-size: 16px;
+    color: rgb(149, 7, 149);
 }
 
 .facial-prod-n-serv-item {
@@ -73,10 +84,10 @@ h2, h3 {
 
 .contact-form-section {
     width: min-content;
-    margin: 0 0 20px 30px;
-    border: thick solid rgb(102, 212, 212);
+    margin: 20px 0 20px 30px;
+    border: thick solid rgb(12, 148, 148);
     border-radius: 20px;
-    background-color: rgb(102, 212, 212);
+    background-color: rgb(12, 148, 148);
 }
 
 .contact-form-heading {
@@ -85,7 +96,7 @@ h2, h3 {
 }
 
 .contact-form {
-    margin: 0 0 30px 0;
+    margin: 20px 0 30px 0;
     font-weight: bold;
 }
 
@@ -101,7 +112,6 @@ h2, h3 {
 .body-footer {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(102, 212, 212);
     width: 100%;
     font-family: monospace, Verdana, sans-serif;
     font-size: large;
@@ -125,7 +135,6 @@ h2, h3 {
 .page-footer {
     width: 100%;
     text-align: center;
-    margin: 45px 0 0 0;
 }
 
 .icon {
