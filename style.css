@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(241, 112, 187);
+    background-color: rgb(226, 200, 214);
 }
 
 .logo {
@@ -85,9 +85,9 @@ h2, h3 {
 .contact-form-section {
     width: min-content;
     margin: 20px 0 20px 30px;
-    border: thick solid rgb(12, 148, 148);
+    border: thick solid rgb(131, 199, 199);
     border-radius: 20px;
-    background-color: rgb(12, 148, 148);
+    background-color: rgb(131, 199, 199);
 }
 
 .contact-form-heading {
