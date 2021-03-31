@@ -3,10 +3,21 @@ body {
 }
 
 .logo {
-    height: 700px;
+    display: flex;
     width: 100%;
-    background-image: url(./images/aphrodite_logo.jpg);
-    background-position: center;
+    margin: 10px;
+}
+
+.logo img {
+    width: 10%;
+}
+
+.company-name {
+    margin-left: 20%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+    font-weight: bolder;
+    color: black;
 }
 
 .nav-bar {
@@ -31,14 +42,6 @@ body {
     border-right: thin solid white;
 }
 
-.company-name {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
-    font-weight: bolder;
-    color: black;
-    text-align: center;
-}
-
 h2, h3 {
     font-family: cursive;
 }
@@ -57,7 +60,7 @@ h2, h3 {
 
 .prod_n_serv_item {
     display: inline-flex;
-    margin: 10px;
+    margin: 10px 25px;
 }
 
 .prod_n_serv_item a {
